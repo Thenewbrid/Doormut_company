@@ -1,0 +1,28 @@
+{
+  "recommendations": [
+    "rodrigovallades.es7-react-js-snippets",
+    "woodreamz.es7-react-js-snippets",
+    "naqvi.es7-react-snippets",
+    "dsznajder.es7-react-js-snippets",
+    "ctcuff.font-preview",
+    "jundat95.react-native-snippet",
+    "bradlc.vscode-tailwindcss",
+    "lior-chamla.google-fonts",
+    "wei-hong.chakra-ui-snippets",
+    "aaron-bond.better-comments",
+    "mgmcdermott.vscode-language-babel",
+    "dzannotti.vscode-babel-coloring",
+    "ankitcode.firefly",
+    "ijs.reactnextjssnippets",
+    "runningcoder.react-snippets",
+    "iceworks-team.iceworks-style-helper",
+    "equimper.react-native-react-redux",
+    "react-tags.react-tags",
+    "xabikos.reactsnippets",
+    "bryceo.simple-react-hooks-snippets",
+    "zarifprogrammer.tailwind-snippets",
+    "wayou.vscode-todo-highlight",
+    "gruntfuggly.todo-tree",
+    "infeng.vscode-react-typescript"
+  ]
+}
