@@ -18,7 +18,7 @@ const Footer = () => {
     
 
 {/* SOCIAL MEDIA SECTION */}
-<div className=" z-10 flex items-center justify-center flex-row gap-14 md:-mt-44 lg:-mt-40  xl:-mt-24 md:gap-24 lg:gap-28 xl:gap-20">
+<div className=" z-10 flex items-center justify-center flex-row gap-24 md:-mt-44 lg:-mt-40  xl:-mt-24 md:gap-24 lg:gap-28 xl:gap-20">
    {/* FOLLOW US */}
    <div className=" flex items-left justify-center flex-col gap-6 md:gap-6 xl:gap-5">
     <h2 className=" text-white font-Quicksand font-semibold text-[16px] md:text-[25px] xl:text-[25px]" >Follow Us</h2>
@@ -34,8 +34,8 @@ const Footer = () => {
     <div className=" flex items-left justify-start flex-col mt-14 md:mt-20 lg:mt-20 xl:mt-16 gap-6 md:gap-6 xl:gap-6 ">
     <h2 className=" text-white font-Quicksand font-semibold text-[16px] md:text-[25px]  xl:text-[25px]">Contact Us</h2>
     <div className='w-24 border-[1px] bg-[#f79e1b] border-[#f79e1b]' />  
-     <div className="flex items-left md:items-left justify-start md:justify-start flex-col gap-1 md:gap-6 xl:md:gap-4 ">
-      <div className=" cursor-pointer flex items-left justify-center flex-row gap-10 "> <img src={phone} className="w-[1.3rem] md:w-[2.3rem] xl:w-[1.7rem]"/> <h3 className="text-white font-Quicksand font-[600] text-[12px] md:text-[14px] xl:text-[17px]">+234 7083025233</h3></div> 
+     <div className="flex items-start md:items-start justify-start md:justify-start flex-col gap-1 md:gap-6 xl:md:gap-4 ">
+      <div className=" cursor-pointer flex items-left justify-center flex-row gap-6 "> <img src={phone} className="w-[1.3rem] md:w-[2.3rem] xl:w-[1.7rem]"/> <h3 className="text-white font-Quicksand font-[600] text-[12px] md:text-[14px] xl:text-[17px]">+234 7083025233</h3></div> 
       <a href="mailto:contact@doormut.com" target="_blank" >  <div className=" cursor-pointer flex items-left justify-center flex-row gap-6 ">  <img src={mail} className="w-[1.3rem] md:w-[2.3rem] xl:w-[1.8rem]"/> <h3 className="text-white font-Quicksand font-[600] text-[12px] md:text-[14px] xl:text-[17px]">info@doormut.com</h3></div> </a>
     </div>
     <div className='bg-white border-[1px]' />
