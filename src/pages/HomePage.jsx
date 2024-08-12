@@ -3,18 +3,22 @@ import MakeSaleSection from "../components/Home/MakeSaleSection";
 import SubscribeCard from "../constants/SubscribeCard";
 import HomeHeader from "../components/Home/HomeHeader";
 import Navbar from "../constants/Navbar";
+import Footer from "../constants/Footer";
 
 const HomePage = () => {
   return (
-    <div className="scroll flex-1  overflow-y-scroll overflow-x-hidden flex flex-col gap-10 items-center justify-center' ">
+    <>
       <Navbar />
-      
-      <HomeHeader />
 
-      <MakeSaleSection />
+      <div className="scroll overflow-y-scroll absolute w-full top-0 overflow-x-clip  flex flex-col gap-10 items-center justify-center' ">
+        <HomeHeader />
 
-      <SubscribeCard />
-    </div>
+        <MakeSaleSection />
+
+        <SubscribeCard />
+        <Footer />
+      </div>
+    </>
   );
 };
 

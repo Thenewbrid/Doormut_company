@@ -6,6 +6,7 @@ import Add2 from "../constants/Add2";
 import RegisterBottom from '../constants/RegisterBottom'
 import Add from '../constants/Add';
 import Add3 from '../constants/Add3';
+import Footer from '../constants/Footer';
 // import SuccessModal from '../components/Register/SuccessModal';
 
 
@@ -18,34 +19,37 @@ const RegisterPage = () => {
    };
   
   return (
-    <div className="scroll flex-1  overflow-y-scroll overflow-x-hidden flex flex-col gap-10 items-center justify-center">
-      {formNo === 1 ? (
-        <div>
-          <Add />
-        </div>
-      ) : null}
-      {formNo === 2 ? (
-        <div>
-          <Add2 pre={pre} />
-        </div>
-      ) : null}
-      {formNo === 3 ? (
-        <div>
-          <Add3 pre={pre} />
-        </div>
-      ) : null}
-      {/* <RegisterHeader /> */}
+    <>
+      <div className="scroll flex-1  overflow-y-scroll overflow-x-clip flex flex-col gap-10 items-center justify-center">
+        {formNo === 1 ? (
+          <div>
+            <Add />
+          </div>
+        ) : null}
+        {formNo === 2 ? (
+          <div>
+            <Add2 pre={pre} />
+          </div>
+        ) : null}
+        {formNo === 3 ? (
+          <div>
+            <Add3 pre={pre} />
+          </div>
+        ) : null}
+        {/* <RegisterHeader /> */}
 
-      <Stepper
-        pre={pre}
-        formArray={formArray}
-        formNo={formNo}
-        setFormNo={setFormNo}
-      />
+        <Stepper
+          pre={pre}
+          formArray={formArray}
+          formNo={formNo}
+          setFormNo={setFormNo}
+        />
 
-      {/* <SubscribeCard />   */}
-      <RegisterBottom formArray={formArray} formNo={formNo} />
-    </div>
+        {/* <SubscribeCard />   */}
+        <RegisterBottom formArray={formArray} formNo={formNo} />
+      </div>
+      <Footer />
+    </>
   );
 }
 

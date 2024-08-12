@@ -9,7 +9,7 @@ import logo from "../assets/logo.png";
 import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
-     <footer className='flex-1 footer  h-[60vh] md:h-[46vh] landscape:h-[70vh] xl:h-[68vh]'>
+     <footer className='flex-1 footer h-[60vh] md:h-[46vh] landscape:h-[70vh] xl:h-[68vh]'>
     <footer className="footer-section relative -bottom-20 flex-col md:flex-row xl:flex-row gap-10 md:gap-32 lg:gap-42 xl:gap-60  z-40 h-[55vh] md:h-[41vh] landscape:h-[54vh] xl:h-[56vh]">
    
    <Link to='/' className='z-10 w-40  md:w-48 xl:w-48 -mt-64 md:-mt-28 lg:mt-40 xl:mt-60 landscape:-top-36 absolute md:relative'>

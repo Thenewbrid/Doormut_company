@@ -36,7 +36,7 @@ const SubscribeCard = () => {
     <div
       data-aos="zoom-in"
       data-aos-duration="500"
-      className=" px-3 md:px-0 xl:px-0 block items-center justify-center h-[230px] xl:h-[300px] md:h-[280px] max-md:w-[360px] xl:w-[680px] md:w-[590px] max-md:mb-32 xl:mb-[12rem] lg:mb-[12rem] md:mb-[15rem]"
+      className=" px-3 md:px-0 xl:px-0 block items-center justify-center h-[230px] xl:h-[300px] md:h-[280px] max-md:w-[360px] xl:w-[680px] md:w-[590px] max-md:mb-32 xl:mb-[8rem] lg:mb-[12rem] md:mb-[15rem]"
     >
       {" "}
       
